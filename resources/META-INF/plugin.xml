@@ -1,0 +1,101 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>cobalt2-intellij</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Cobalt2 Theme (Unofficial)</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="support@pogoda.click" url="https://www.github.com/Pogodaanton/cobalt2-intellij">Anton D.</vendor>
+
+    <idea-version since-build="232" until-build="242.*"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    <p>An unofficial faithful re-implementation of <a href="https://github.com/wesbos/cobalt2-vscode">Cobalt2</a> for JetBrains IDEs; forked from Dennis Koch's <a href="github.com/pxlrbt/cobalt2-jetbrains">version</a></p>
+    <h3>Key features:</h3>
+    <ul>
+        <li>Re-themed IDE using the color palette from Wes Bos' original theme <a href="https://github.com/wesbos/cobalt2-vscode">Cobalt2</a></li>
+        <li>Accompanying color scheme with extended support for many languages out-of-the-box</li>
+        <li>Adapted token colors to better accommodate languages outside of HTML/CSS/JS</li>
+    </ul>
+    <h3>Contribution and Support</h3>
+    <p>This plugin is authored by personal needs, hence <b>no support</b> is provided outside of the most UI-breaking issues. You are <b>encouraged to adapt the color scheme</b> for missing programming languages or legibility issues <b>and share them to the repository</b>. Below are steps to achieve this:</p>
+    <ol>
+        <li>Go to: <code>Settings -> Editor -> Color Scheme -> [Your desired language]</code></li>
+        <li>Adapt the color scheme to your liking</li>
+        <li>Open the menu <code>Show Scheme Actions</code> by pressing the cog symbol next to the <code>Scheme</code> dropdown menu</li>
+        <li>Choose <code>Export -> (.icls)</code> and save the file</li>
+        <li>Rename the file, such that its extension changes from <code>.icls</code> to <code>.xml</code> (e.g. <code>Cobalt2.icls -> Cobalt2.xml</code>)</li>
+        <ul>
+            <li>[Windows] You might have to disable "Hide extensions for known file types" in the Explorer for this. Consider doing the renaming in a JetBrains IDE instead</li>
+        </ul>
+        <li>Send a pull-request to the cobalt2-intellij git repository</li>
+    </ol>
+    <h3>Color Palette and Consistency</h3>
+    <p>When designing new color schemes, this theme strives to stay close to the original material, that is <a href="https://github.com/wesbos/cobalt2-vscode">Wes Bos' VSCode theme</a>. You may deviate from the token color rules if they harm legibility (e.g. using white foreground instead of light-blue because latter would visually clash with other colors 80% of the time), however, stay to the basic token colors and keep it simple (read: <b>don't unnecessarily introduce new colors</b>). You may play around with italics and bold settings per token.</p>
+    <p>All available token colors can be found at <code>Settings -> Editor -> Color Scheme -> General/Language Defaults</code>. Here are some of the most imporant ones:</p>
+    <table>
+        <tbody>
+            <tr>
+                <td>Off-White (Default)</td>
+                <td><code style="background: #193549; color: #E1EFFF; padding: 5px">#E1EFFF</code></td>
+                <td>(If in doubt, pick this)</td>
+            </tr>
+            <tr>
+                <td>Bronze (Keywords)</td>
+                <td><code style="background: #193549; color: #FF9D00; padding: 5px">#FF9D00</code></td>
+            </tr>
+            <tr>
+                <td>Gold (Function)</td>
+                <td><code style="background: #193549; color: #FFC600; padding: 5px">#FFC600</code></td>
+                <td>(Primary contrast color)</td>
+            </tr>
+            <tr>
+                <td>Magenta (Interface)</td>
+                <td><code style="background: #193549; color: #FF68B8; padding: 5px">#FF68B8</code></td>
+            </tr>
+            <tr>
+                <td>Pink (Constant/Literal)</td>
+                <td><code style="background: #193549; color: #FF628C; padding: 5px">#FF628C</code></td>
+            </tr>
+            <tr>
+                <td>Light-Blue (Labels)</td>
+                <td><code style="background: #193549; color: #9EFFFF; padding: 5px">#9EFFFF</code></td>
+            </tr>
+            <tr>
+                <td>Light-Green (String)</td>
+                <td><code style="background: #193549; color: #A5FF90; padding: 5px">#A5FF90</code></td>
+            </tr>
+            <tr>
+                <td>Mint-Green (Misc. Identifier)</td>
+                <td><code style="background: #193549; color: #7cfcba; padding: 5px">#7cfcba</code></td>
+            </tr>
+            <tr>
+                <td>Dark-Green (Misc. Identifier)</td>
+                <td><code style="background: #193549; color: #34c80f; padding: 5px">#34c80f</code></td>
+            </tr>
+        </tbody>
+    </table>
+  ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="cobalt2-intellij" path="/theme/cobalt2.theme.json"/>
+    </extensions>
+</idea-plugin>
