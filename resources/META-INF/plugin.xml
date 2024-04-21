@@ -26,7 +26,7 @@
         <li>Adapted token colors to better accommodate languages outside of HTML/CSS/JS</li>
     </ul>
     <h3>Contribution and Support</h3>
-    <p>This plugin is authored by personal needs, hence <b>no support</b> is provided outside of the most UI-breaking issues. You are <b>encouraged to adapt the color scheme</b> for missing programming languages or legibility issues <b>and share them to the repository</b>. Below are steps to achieve this:</p>
+    <p>This plugin is authored by personal needs, hence <b>no support</b> is provided outside of the most UI-breaking issues. You are <b>encouraged to adapt the color scheme</b> for missing programming languages or legibility issues <b>and share them to the <a href="https://github.com/Pogodaanton/cobalt2-intellij">repository</a></b>. Below are steps to achieve this:</p>
     <ol>
         <li>Go to: <code>Settings -> Editor -> Color Scheme -> [Your desired language]</code></li>
         <li>Adapt the color scheme to your liking</li>
@@ -36,7 +36,7 @@
         <ul>
             <li>[Windows] You might have to disable "Hide extensions for known file types" in the Explorer for this. Consider doing the renaming in a JetBrains IDE instead</li>
         </ul>
-        <li>Send a pull-request to the cobalt2-intellij git repository</li>
+        <li>Send a <a href="https://github.com/Pogodaanton/cobalt2-intellij/pulls">pull-request</a> to the cobalt2-intellij git repository</li>
     </ol>
     <h3>Color Palette and Consistency</h3>
     <p>When designing new color schemes, this theme strives to stay close to the original material, that is <a href="https://github.com/wesbos/cobalt2-vscode">Wes Bos' VSCode theme</a>. You may deviate from the token color rules if they harm legibility (e.g. using white foreground instead of light-blue because latter would visually clash with other colors 80% of the time), however, stay to the basic token colors and keep it simple (read: <b>don't unnecessarily introduce new colors</b>). You may play around with italics and bold settings per token.</p>
