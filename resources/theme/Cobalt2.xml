@@ -1,21 +1,25 @@
 <scheme name="Cobalt2" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2024-04-20T01:03:57</property>
-    <property name="ide">AndroidStudio</property>
-    <property name="ideVersion">2023.2.1.25</property>
-    <property name="modified">2024-04-20T01:04:08</property>
-    <property name="originalScheme">Cobalt2</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2024.1.0.0</property>
   </metaInfo>
   <colors>
+    <option name="ADDED_LINES_COLOR" value="346134" />
+    <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="f1f1f1" />
     <option name="CARET_COLOR" value="ffffff" />
     <option name="CARET_ROW_COLOR" value="" />
     <option name="CONSOLE_BACKGROUND_KEY" value="122738" />
+    <option name="DIFF_SEPARATOR_WAVE" value="3d5363" />
     <option name="DOCUMENTATION_COLOR" value="3f5e" />
     <option name="DOC_COMMENT_GUIDE" value="6a879c" />
     <option name="DOC_COMMENT_LINK" value="6fbeff" />
     <option name="GUTTER_BACKGROUND" value="173042" />
+    <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="3c633c" />
+    <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="788f9a" />
+    <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="59707d" />
     <option name="INDENT_GUIDE" value="325167" />
     <option name="INFORMATION_HINT" value="3f5e" />
+    <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="787878" />
     <option name="LINE_NUMBERS_COLOR" value="aaaaaa" />
     <option name="MODIFIED_TAB_ICON" value="ff9d00" />
     <option name="NOTIFICATION_BACKGROUND" value="173042" />
@@ -23,8 +27,14 @@
     <option name="SELECTED_INDENT_GUIDE" value="386e94" />
     <option name="SELECTION_BACKGROUND" value="234e6d" />
     <option name="TEARLINE_COLOR" value="386e94" />
+    <option name="VCS_ANNOTATIONS_COLOR_1" value="21724" />
+    <option name="VCS_ANNOTATIONS_COLOR_2" value="21724" />
+    <option name="VCS_ANNOTATIONS_COLOR_3" value="21724" />
+    <option name="VCS_ANNOTATIONS_COLOR_4" value="21724" />
+    <option name="VCS_ANNOTATIONS_COLOR_5" value="21724" />
     <option name="VISUAL_INDENT_GUIDE" value="325167" />
     <option name="WHITESPACES" value="25425c" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="6d651b" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -518,7 +528,39 @@
         <option name="FOREGROUND" value="3ad900" />
       </value>
     </option>
-    <option name="ComposableCallTextAttributes" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="CodeWithMe.USER_1_MARKER">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="b5c91a" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_1_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="345720" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_MARKER">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="db5caf" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="761555" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_MARKER">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="d45c4e" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="794b49" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="ffc107" />
@@ -719,26 +761,29 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="ee3a43" />
-        <option name="ERROR_STRIPE_COLOR" value="ff628c" />
+        <option name="FOREGROUND" value="193549" />
+        <option name="BACKGROUND" value="ffc600" />
+        <option name="ERROR_STRIPE_COLOR" value="ff9d00" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="ffffff" />
-        <option name="ERROR_STRIPE_COLOR" value="aaaaaa" />
+        <option name="FOREGROUND" value="472a3a" />
+        <option name="BACKGROUND" value="692e3b" />
+        <option name="ERROR_STRIPE_COLOR" value="aa3358" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="3ad900" />
-        <option name="ERROR_STRIPE_COLOR" value="a5ff90" />
+        <option name="FOREGROUND" value="334f4b" />
+        <option name="BACKGROUND" value="356a3c" />
+        <option name="ERROR_STRIPE_COLOR" value="2c8732" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="50a4" />
-        <option name="ERROR_STRIPE_COLOR" value="99ccff" />
+        <option name="BACKGROUND" value="1369b8" />
+        <option name="ERROR_STRIPE_COLOR" value="83b2e0" />
       </value>
     </option>
     <option name="DJANGO_COMMENT">
@@ -994,7 +1039,7 @@
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="ffffcc" />
+        <option name="ERROR_STRIPE_COLOR" value="828265" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -2013,7 +2058,7 @@
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="ERROR_STRIPE_COLOR" value="ff" />
+        <option name="ERROR_STRIPE_COLOR" value="c7c7ff" />
       </value>
     </option>
     <option name="TYPEDEF">
@@ -2042,7 +2087,7 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="2167b0" />
-        <option name="ERROR_STRIPE_COLOR" value="ffcdff" />
+        <option name="ERROR_STRIPE_COLOR" value="4d9ef1" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
