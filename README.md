@@ -1,20 +1,8 @@
-# Cobalt2 for IntelliJ
+# Cobalt2 Theme (Reshaded) for IntelliJ
 
 ![Build](https://github.com/Pogodaanton/cobalt2-intellij/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties) and [pluginName](./gradle.properties), as well as the [id](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `MARKETPLACE_ID` in the above README badges. You can obtain it once the plugin is published to JetBrains Marketplace.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
 An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/cobalt2-vscode) for JetBrains IDEs; forked from Dennis Koch's [version](github.com/pxlrbt/cobalt2-jetbrains)
@@ -27,7 +15,7 @@ An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/
 
 ## Contribution and Support
 
-This plugin is authored by personal needs, hence **no support** is provided outside of the most UI-breaking issues. You are **encouraged to adapt the color scheme** for missing programming languages or legibility issues **and share them to the repository**. Below are steps to achieve this:
+This plugin is authored by personal needs, hence **no support** is provided outside the most UI-breaking issues. You are **encouraged to adapt the color scheme** for missing programming languages or legibility issues **and share them to the repository**. Below are steps how to do that:
 
 1.  Go to: `Settings -> Editor -> Color Scheme -> [Your desired language]`
 2.  Adapt the color scheme to your liking
@@ -37,7 +25,7 @@ This plugin is authored by personal needs, hence **no support** is provided outs
 
 *   \[Windows\] You might have to disable "Hide extensions for known file types" in the Explorer for this. Consider doing the renaming in a JetBrains IDE instead
 
-7.  Send a [pull-request](https://github.com/Pogodaanton/cobalt2-intellij/pulls) to the cobalt2-intellij git repository
+7.  Send a [pull-request](https://github.com/Pogodaanton/cobalt2-intellij/pulls) to the git repository
 <!-- Plugin description end -->
 
 ### Color Palette and Consistency
@@ -80,6 +68,19 @@ All available token colors can be found at `Settings -> Editor -> Color Scheme -
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
+
+## Template ToDo list
+- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
+- [ ] Get familiar with the [template documentation][template].
+- [x] Adjust the [pluginGroup](./gradle.properties) and [pluginName](./gradle.properties), as well as the [id](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
+- [x] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
+- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
+- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
+- [ ] Set the `MARKETPLACE_ID` in the above README badges. You can obtain it once the plugin is published to JetBrains Marketplace.
+- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
+- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
+- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
 [docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation

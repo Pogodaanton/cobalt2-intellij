@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.pogodaanton.cobalt2</id>
-    <name>Cobalt2</name>
+    <name>Cobalt2 Theme (Reshaded)</name>
     <vendor>Anton D.</vendor>
 
     <depends>com.intellij.modules.platform</depends>
