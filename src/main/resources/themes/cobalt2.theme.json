@@ -1,0 +1,210 @@
+{
+  "name": "Cobalt2",
+  "dark": true,
+  "author": "Anton D.",
+  "editorScheme": "themes/cobalt2.xml",
+  "colors": {
+    "magenta": "#FF68B8",
+    "pink": "#FF628C",
+    "lightBlue": "#9EFFFF",
+    "lightGreen": "#A5FF90",
+    "mintGreen": "#7cfcba",
+    "darkGreen": "#34c80f",
+
+    "text": "#E1EFFF",
+    "basicBackground": "#193549",
+    "secondaryBackground": "#122738",
+    "tertiaryBackground": "#15232d",
+
+    "gold": "#ffc600",
+    "bronze": "#ff9d00",
+    "blue1": "#0088ff",
+    "hue1": "#003854",
+    "hue2": "#003f5e",
+    "hue3": "#267DA2"
+  },
+  "ui": {
+    "*": {
+      "background": "secondaryBackground",
+      "foreground": "text",
+      "selectionBackground": "hue2"
+    },
+    "ActionButton": {
+      "pressedBackground": "blue1",
+      "pressedBorderColor": "blue1",
+      "hoverBackground": "hue2",
+      "hoverBorderColor": "hue2"
+    },"CompletionPopup": {
+      "selectionBackground": "basicBackground"
+    },
+    "Borders": {
+      "ContrastBorderColor": "secondaryBackground",
+      "color": "secondaryBackground"
+    },
+    "Button": {
+      "shadowColor": "secondaryBackground",
+      "startBackground": "secondaryBackground",
+      "endBackground": "secondaryBackground",
+      "startBorderColor": "blue1",
+      "endBorderColor": "blue1",
+      "focusedBorderColor": "text",
+      "arc": "8",
+      "default": {
+        "startBackground": "gold",
+        "endBackground": "bronze",
+        "startBorderColor": "gold",
+        "endBorderColor": "gold",
+        "focusedBorderColor": "blue1",
+        "focusColor": "blue1",
+        "foreground": "hue1"
+      }
+    },
+    "CheckBox": {
+      "background": "secondaryBackground"
+    },
+    "CheckBoxMenuItem": {
+      "background": "secondaryBackground"
+    },
+    "ColorChooser": {
+      "background": "secondaryBackground"
+    },
+    "ComboBox": {
+      "ArrowButton": {
+        "background": "basicBackground",
+        "nonEditableBackground": "basicBackground"
+      },
+      "background": "secondaryBackground",
+      "foreground": "text",
+      "nonEditableBackground": "secondaryBackground"
+    },
+    "DefaultTabs": {
+      "background": "secondaryBackground",
+      "secondaryBackground": "secondaryBackground",
+      "hoverBackground": "hue1"
+    },
+    "EditorTabs": {
+      "background": "secondaryBackground",
+      "secondaryBackground": "secondaryBackground",
+      "underlinedTabBackground": "basicBackground",
+      "underlineColor": "gold",
+      "inactiveUnderlineColor": "gold",
+      "underlinedTabForeground": "#ffffff",
+      "underlineHeight": 1
+    },
+    "Link": {
+      "activeForeground": "gold",
+      "hoverForeground": "gold",
+      "visitedForeground": "gold"
+    },
+    "Label": {
+      "background": "secondaryBackground"
+    },
+    "List": {
+      "background": "secondaryBackground"
+    },
+    "Menu": {
+      "background": "secondaryBackground",
+      "foreground": "text"
+    },
+    "MenuBar": {
+      "disabledBackground": "secondaryBackground"
+    },
+    "OptionPane": {
+      "background": "secondaryBackground"
+    },
+    "Panel": {
+      "background": "secondaryBackground",
+      "foreground": "text"
+    },
+    "PasswordField": {
+      "background": "secondaryBackground",
+      "selectionBackground": "secondaryBackground"
+    },
+    "Popup": {
+      "Toolbar.background": "basicBackground"
+    },
+    "PopupMenu": {
+      "background": "secondaryBackground"
+    },
+    "ProgressBar": {
+      "background": "secondaryBackground"
+    },
+    "Plugins": {
+      "lightSelectionBackground": "hue2"
+    },
+    "RadioButton": {
+      "background": "secondaryBackground"
+    },
+    "RadioButtonMenuItem": {
+      "background": "secondaryBackground"
+    },
+    "ScrollBar": {
+      "background": "hue1"
+    },
+    "ScrollPane": {
+      "background": "secondaryBackground"
+    },
+    "Slider": {
+      "background": "secondaryBackground"
+    },
+    "Spinner": {
+      "background": "secondaryBackground"
+    },
+    "SplitPane": {
+      "background": "secondaryBackground"
+    },
+    "TabbedPane": {
+      "background": "secondaryBackground",
+      "contentAreaColor": "secondaryBackground"
+    },
+    "TextField": {
+      "background": "secondaryBackground"
+    },
+    "TextPane": {
+      "background": "secondaryBackground"
+    },
+    "ToggleButton": {
+      "background": "secondaryBackground"
+    },
+    "ToolTip": {
+      "background": "hue2"
+    },
+    "ToolWindow": {
+      "background": "secondaryBackground",
+      "Header.background": "tertiaryBackground",
+      "Header.borderColor": "secondaryBackground",
+      "Header.inactiveBackground": "tertiaryBackground",
+      "Button.selectedBackground": "blue1",
+      "Button.hoverBackground": "primaryBackground"
+    },
+    "Tree": {
+      "background": "secondaryBackground",
+      "modifiedItemForeground": "gold"
+    },
+    "Viewport": {
+      "background": "primaryBackground"
+    },
+    "MainToolbar": {
+      "background": "tertiaryBackground"
+    },
+    "FileColor": {
+      "Yellow": "tertiaryBackground",
+      "Green": "#092E15",
+      "Blue": "#00004D",
+      "Violet": "#471747",
+      "Orange": "#733000",
+      "Rose": "#4D0F22",
+      "Gray": "#062329"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "#173042",
+      "Checkbox.Background.Default": "#193549",
+      "Checkbox.Background.Selected.Dark": "#ff9d00",
+      "Checkbox.Background.Selected": "#ffc600",
+      "Checkbox.Foreground.Selected.Dark": "#173042",
+      "Checkbox.Foreground.Selected": "#193549"
+    }
+  }
+}
