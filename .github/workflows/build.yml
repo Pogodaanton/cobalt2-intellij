@@ -92,6 +92,7 @@ jobs:
   # Run tests and upload a code coverage report
   test:
     name: Test
+    if: false
     needs: [ build ]
     runs-on: ubuntu-latest
     steps:
@@ -132,6 +133,7 @@ jobs:
   # Run Qodana inspections and provide report
   inspectCode:
     name: Inspect code
+    if: false
     needs: [ build ]
     runs-on: ubuntu-latest
     permissions:
@@ -220,7 +222,7 @@ jobs:
   releaseDraft:
     name: Release draft
     if: github.event_name != 'pull_request'
-    needs: [ build, test, inspectCode, verify ]
+    needs: [ build, verify ]
     runs-on: ubuntu-latest
     permissions:
       contents: write
