@@ -6,11 +6,7 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.pogodaanton.cobalt2intellij.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.pogodaanton.cobalt2intellij.startup.MyProjectActivity" />
         <themeProvider id="4c552c79-f953-4065-868a-4557c074dc71" path="/themes/cobalt2.theme.json"/>
     </extensions>
 </idea-plugin>
