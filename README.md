@@ -5,27 +5,24 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
 
 <!-- Plugin description -->
-An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/cobalt2-vscode) for JetBrains IDEs; forked from Dennis Koch's [version](github.com/pxlrbt/cobalt2-jetbrains)
+An unofficial faithful re-implementation of [Cobalt2](https://github.com/wesbos/cobalt2-vscode) for JetBrains IDEs; forked from Dennis Koch's [version](https://github.com/pxlrbt/cobalt2-jetbrains)
 
 ## Key features:
 
-*   Re-themed IDE using the color palette from Wes Bos' original theme [Cobalt2](https://github.com/wesbos/cobalt2-vscode)
+*   IDE theming using the color palette from Wes Bos' original theme [Cobalt2](https://github.com/wesbos/cobalt2-vscode)
 *   Accompanying color scheme with extended support for many languages out-of-the-box
 *   Adapted token colors to better accommodate languages outside of HTML/CSS/JS
 
 ## Contribution and Support
 
-This plugin is authored by personal needs, hence **no support** is provided outside the most UI-breaking issues. You are **encouraged to adapt the color scheme** for missing programming languages or legibility issues **and share them to the repository**. Below are steps how to do that:
+This plugin is authored by personal needs, hence feature support from the theme author is only provided for select issues. **You are encouraged to adapt the color scheme** for missing programming languages or legibility issues yourself **and to share your changes with the repository**. Below are steps how to do that:
 
 1.  Go to: `Settings -> Editor -> Color Scheme -> [Your desired language]`
-2.  Adapt the color scheme to your liking
+2.  Adapt the color scheme to your liking; The [recommended color palette](https://github.com/Pogodaanton/cobalt2-intellij#color-palette-and-consistency) might help you
 3.  Open the menu `Show Scheme Actions` by pressing the cog symbol next to the `Scheme` dropdown menu
 4.  Choose `Export -> (.icls)` and save the file
-5.  Rename the file, such that its extension changes from `.icls` to `.xml` (e.g. `Cobalt2.icls -> Cobalt2.xml`)
-
-*   \[Windows\] You might have to disable "Hide extensions for known file types" in the Explorer for this. Consider doing the renaming in a JetBrains IDE instead
-
-7.  Send a [pull-request](https://github.com/Pogodaanton/cobalt2-intellij/pulls) to the git repository
+5.  Rename the file, such that its extension changes from `.icls` to `.xml` (e.g. `Cobalt2.icls -> Cobalt2.xml`) (it's easiest to do the renaming in a JetBrains IDE)
+6. Send a [pull-request](https://github.com/Pogodaanton/cobalt2-intellij/pulls) to the git repository
 <!-- Plugin description end -->
 
 ### Color Palette and Consistency
@@ -65,6 +62,10 @@ All available token colors can be found at `Settings -> Editor -> Color Scheme -
   Download the [latest release](https://github.com/Pogodaanton/cobalt2-intellij/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
+## Credits
+
+- Colors inspired from Wes Bos' Cobalt2 theme: https://github.com/wesbos/cobalt2-vscode
+- Forked from Dennis Koch's IntelliJ theme: https://github.com/pxlrbt/cobalt2-jetbrains
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
