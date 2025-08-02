@@ -35,7 +35,6 @@
         <option name="VISUAL_INDENT_GUIDE" value="325167" />
         <option name="WHITESPACES" value="25425c" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="6d651b" />
-        <!-- TODO: Match file VCS status colors with diff colors (lighter green for add, lighter red for delete, blue for modified) -->
         <option name="FILESTATUS_ADDED" value="3ad900" />
         <option name="FILESTATUS_MODIFIED" value="47a6ff" />
         <option name="FILESTATUS_DELETED" value="ff628c" />
