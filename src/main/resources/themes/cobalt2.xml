@@ -1,49 +1,49 @@
 <scheme name="Cobalt2" version="142" parent_scheme="Darcula">
     <metaInfo>
         <property name="ide">Idea</property>
-        <property name="ideVersion">2024.1.0.0</property>
+        <property name="ideVersion">2025.2.3.0.0</property>
     </metaInfo>
     <colors>
         <option name="ADDED_LINES_COLOR" value="346134" />
-        <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="f1f1f1" />
-        <option name="CARET_COLOR" value="ffffff" />
+        <option name="ANNOTATIONS_LAST_COMMIT_COLOR" value="F1F1F1" />
+        <option name="CARET_COLOR" value="FFFFFF" />
         <option name="CARET_ROW_COLOR" value="" />
         <option name="CONSOLE_BACKGROUND_KEY" value="122738" />
-        <option name="DIFF_SEPARATOR_WAVE" value="3d5363" />
-        <option name="DOCUMENTATION_COLOR" value="3f5e" />
-        <option name="DOC_COMMENT_GUIDE" value="6a879c" />
-        <option name="DOC_COMMENT_LINK" value="6fbeff" />
-        <option name="GUTTER_BACKGROUND" value="173042" />
-        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="3c633c" />
-        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="788f9a" />
-        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="59707d" />
-        <option name="INDENT_GUIDE" value="325167" />
-        <option name="INFORMATION_HINT" value="3f5e" />
-        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="787878" />
-        <option name="LINE_NUMBERS_COLOR" value="aaaaaa" />
-        <option name="MODIFIED_TAB_ICON" value="ff9d00" />
-        <option name="NOTIFICATION_BACKGROUND" value="173042" />
-        <option name="RIGHT_MARGIN_COLOR" value="325167" />
-        <option name="SELECTED_INDENT_GUIDE" value="386e94" />
-        <option name="SELECTION_BACKGROUND" value="234e6d" />
-        <option name="TEARLINE_COLOR" value="386e94" />
-        <option name="VCS_ANNOTATIONS_COLOR_1" value="21724" />
-        <option name="VCS_ANNOTATIONS_COLOR_2" value="21724" />
-        <option name="VCS_ANNOTATIONS_COLOR_3" value="21724" />
-        <option name="VCS_ANNOTATIONS_COLOR_4" value="21724" />
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="21724" />
-        <option name="VISUAL_INDENT_GUIDE" value="325167" />
-        <option name="WHITESPACES" value="25425c" />
-        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="6d651b" />
-        <option name="FILESTATUS_ADDED" value="3ad900" />
-        <option name="FILESTATUS_MODIFIED" value="47a6ff" />
-        <option name="FILESTATUS_DELETED" value="ff628c" />
+        <option name="DIFF_SEPARATOR_WAVE" value="3D5363" />
+        <option name="DOCUMENTATION_COLOR" value="003F5E" />
+        <option name="DOC_COMMENT_GUIDE" value="6A879C" />
+        <option name="DOC_COMMENT_LINK" value="6FBEFF" />
+        <option name="FILESTATUS_ADDED" value="3AD900" />
+        <option name="FILESTATUS_DELETED" value="FF628C" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="808080" />
-        <option name="FILESTATUS_UNKNOWN" value="AAAAAA" />
-        <option name="FILESTATUS_changelistConflict" value="FF7200" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="FF7200" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="FF7200" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="FF7200" />
+        <option name="FILESTATUS_MODIFIED" value="47A6FF" />
+        <option name="FILESTATUS_UNKNOWN" value="AAAAAA" />
+        <option name="FILESTATUS_changelistConflict" value="FF7200" />
+        <option name="GUTTER_BACKGROUND" value="173042" />
+        <option name="IGNORED_ADDED_LINES_BORDER_COLOR" value="3C633C" />
+        <option name="IGNORED_DELETED_LINES_BORDER_COLOR" value="788F9A" />
+        <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="59707D" />
+        <option name="INDENT_GUIDE" value="325167" />
+        <option name="INFORMATION_HINT" value="003F5E" />
+        <option name="INLINE_REFACTORING_SETTINGS_DEFAULT" value="787878" />
+        <option name="LINE_NUMBERS_COLOR" value="AAAAAA" />
+        <option name="MODIFIED_TAB_ICON" value="FF9D00" />
+        <option name="NOTIFICATION_BACKGROUND" value="173042" />
+        <option name="RIGHT_MARGIN_COLOR" value="325167" />
+        <option name="SELECTED_INDENT_GUIDE" value="386E94" />
+        <option name="SELECTION_BACKGROUND" value="234E6D" />
+        <option name="TEARLINE_COLOR" value="386E94" />
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="021724" />
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="021724" />
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="021724" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="021724" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="021724" />
+        <option name="VISUAL_INDENT_GUIDE" value="325167" />
+        <option name="WHITESPACES" value="25425C" />
+        <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="6D651B" />
     </colors>
     <attributes>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -435,7 +435,7 @@
                 <option name="FOREGROUND" value="ffc600" />
             </value>
         </option>
-        <option name="CSS.IMPORTANT" baseAttributes="" />
+        <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
         <option name="CSS.PROPERTY_NAME">
             <value>
                 <option name="FOREGROUND" value="80ffbb" />
@@ -451,7 +451,7 @@
                 <option name="FOREGROUND" value="ffc600" />
             </value>
         </option>
-        <option name="CSS.URL" baseAttributes="" />
+        <option name="CSS.URL" baseAttributes="HTML_ATTRIBUTE_VALUE" />
         <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
             <value>
                 <option name="FOREGROUND" value="f8f8f8" />
@@ -1914,13 +1914,13 @@
                 <option name="FOREGROUND" value="3ad900" />
             </value>
         </option>
-        <option name="SASS_COMMENT" baseAttributes="" />
+        <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
         <option name="SASS_MIXIN">
             <value>
                 <option name="FOREGROUND" value="ffc600" />
             </value>
         </option>
-        <option name="SASS_VARIABLE" baseAttributes="" />
+        <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="SCOPE_KEY_Tests">
             <value>
                 <option name="BACKGROUND" value="264210" />
@@ -2158,6 +2158,128 @@
         <option name="YAML_TEXT">
             <value>
                 <option name="FOREGROUND" value="a5ff90" />
+            </value>
+        </option>
+        <option name="org.rust.ASSOC_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+        <option name="org.rust.ASSOC_TRAIT_FUNCTION_CALL" baseAttributes="org.rust.ASSOC_FUNCTION_CALL" />
+        <option name="org.rust.ATTRIBUTE">
+            <value>
+                <option name="FOREGROUND" value="7cfcba" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.CFG_DISABLED_CODE">
+            <value>
+                <option name="FOREGROUND" value="9ca2a6" />
+            </value>
+        </option>
+        <option name="org.rust.CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="ff628c" />
+            </value>
+        </option>
+        <option name="org.rust.CRATE">
+            <value>
+                <option name="FOREGROUND" value="e1efff" />
+            </value>
+        </option>
+        <option name="org.rust.DOC_LINK">
+            <value>
+                <option name="FOREGROUND" value="e1efff" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.ENUM" baseAttributes="DEFAULT_CLASS_NAME" />
+        <option name="org.rust.ENUM_VARIANT" baseAttributes="DEFAULT_STATIC_FIELD" />
+        <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+        <option name="org.rust.INLINE_ERROR_DESCRIPTION">
+            <value>
+                <option name="FOREGROUND" value="be486d" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.KEYWORD_UNSAFE">
+            <value>
+                <option name="FOREGROUND" value="7cfcba" />
+            </value>
+        </option>
+        <option name="org.rust.LIFETIME">
+            <value>
+                <option name="FOREGROUND" value="9effff" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.MACRO">
+            <value>
+                <option name="FOREGROUND" value="ff9d00" />
+            </value>
+        </option>
+        <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
+        <option name="org.rust.MUT_SELF_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="fb94ee" />
+                <option name="EFFECT_COLOR" value="745877" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.MUT_STATIC">
+            <value>
+                <option name="FONT_TYPE" value="2" />
+                <option name="EFFECT_COLOR" value="707d95" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.Q_OPERATOR">
+            <value>
+                <option name="FOREGROUND" value="ff9d00" />
+            </value>
+        </option>
+        <option name="org.rust.SELF_EXPRESSION">
+            <value>
+                <option name="FOREGROUND" value="fb94ee" />
+            </value>
+        </option>
+        <option name="org.rust.SELF_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="fb94ee" />
+            </value>
+        </option>
+        <option name="org.rust.STATIC">
+            <value>
+                <option name="FOREGROUND" value="e1efff" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.STRUCT" baseAttributes="DEFAULT_CLASS_NAME" />
+        <option name="org.rust.TRAIT" baseAttributes="DEFAULT_INTERFACE_NAME" />
+        <option name="org.rust.TRAIT_METHOD" baseAttributes="org.rust.METHOD" />
+        <option name="org.rust.TRAIT_METHOD_CALL" baseAttributes="org.rust.METHOD_CALL" />
+        <option name="org.rust.TYPE_ALIAS">
+            <value>
+                <option name="FOREGROUND" value="ffc600" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="org.rust.TYPE_PARAMETER">
+            <value>
+                <option name="FOREGROUND" value="ff628c" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="org.rust.UNION" baseAttributes="DEFAULT_CLASS_NAME" />
+        <option name="org.rust.UNSAFE_CODE">
+            <value>
+                <option name="BACKGROUND" value="d293e" />
+            </value>
+        </option>
+        <option name="org.rust.VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="e1efff" />
+            </value>
+        </option>
+        <option name="org.toml.DATE">
+            <value>
+                <option name="FOREGROUND" value="ff628c" />
             </value>
         </option>
     </attributes>
