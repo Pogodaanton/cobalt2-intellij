@@ -22,26 +22,40 @@ This plugin is authored by personal needs, hence feature support from the theme 
 3.  Open the menu `Show Scheme Actions` by pressing the cog symbol next to the `Scheme` dropdown menu
 4.  Choose `Export -> (.icls)` and save the file
 5.  Rename the file, such that its extension changes from `.icls` to `.xml` (e.g. `Cobalt2.icls -> Cobalt2.xml`) (it's easiest to do the renaming in a JetBrains IDE)
-6. Send a [pull-request](https://github.com/Pogodaanton/cobalt2-intellij/pulls) to the git repository
+6.  Send a [pull-request](https://github.com/Pogodaanton/cobalt2-intellij/pulls) to the git repository
 <!-- Plugin description end -->
 
 ### Color Palette and Consistency
 
-When designing new color schemes, this theme strives to stay close to the original material, that is [Wes Bos' VSCode theme](https://github.com/wesbos/cobalt2-vscode). You may deviate from the token color rules if they harm legibility (e.g. using white foreground instead of light-blue because latter would visually clash with other colors 80% of the time), however, stay to the basic token colors and keep it simple (read: **don't unnecessarily introduce new colors**). You may play around with italics and bold settings per token.
+When designing new color schemes, this theme strives to stay close to the original material, that is [Wes Bos' VSCode theme](https://github.com/wesbos/cobalt2-vscode).
 
-All available token colors can be found at `Settings -> Editor -> Color Scheme -> General/Language Defaults`. Here are some of the most imporant ones:
+When choosing a color for a token, use the values listed in the table below.
+Each color is assigned a token type.
+You may deviate from these assignments if the color harms legibility in the context of the language.
+
+> [!IMPORTANT] For Example:  
+> Say the given programming language uses a lot of labels. By default, those would be assigned the color of light-blue.
+> However, as it's a complimentary color, it will visually clash with the rest of the palette in the code.
+> In this case, it is better to deviate from the rule and switch labels to a different color in the list.
+> (Don't be afraid to use the default off-white color)
+
+That said, please try not to introduce new colors all too often, as the goal to an extent is simplicity.
+Instead, try playing around with italics and bold settings per token.
+
+All available token colors can be found at `Settings -> Editor -> Color Scheme -> General/Language Defaults`. Here are some of the most important ones:
 
 |                               |           |                          |
 |-------------------------------|-----------|--------------------------|
 | Off-White (Default)           | `#E1EFFF` | (If in doubt, pick this) |
-| Bronze (Keywords)             | `#FF9D00` |
+| Bronze (Keywords)             | `#FF9D00` |                          |
 | Gold (Function)               | `#FFC600` | (Primary contrast color) |
-| Magenta (Interface)           | `#FF68B8` |
-| Pink (Constant/Literal)       | `#FF628C` |
-| Light-Blue (Labels)           | `#9EFFFF` |
-| Light-Green (String)          | `#A5FF90` |
-| Mint-Green (Misc. Identifier) | `#7cfcba` |
-| Dark-Green (Misc. Identifier) | `#34c80f` |
+| Magenta (Interface)           | `#FF68B8` |                          |
+| Purple (This/Self)            | `#FB94EE` |                          |
+| Pink (Constant/Literal)       | `#FF628C` |                          |
+| Light-Blue (Labels)           | `#9EFFFF` |                          |
+| Light-Green (String)          | `#A5FF90` |                          |
+| Mint-Green (Misc. Identifier) | `#7cfcba` |                          |
+| Dark-Green (Misc. Identifier) | `#34c80f` |                          |
 
 ## Installation
 
@@ -52,9 +66,9 @@ All available token colors can be found at `Settings -> Editor -> Color Scheme -
   
 - Using JetBrains Marketplace:
 
-  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
+  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/28023) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
 
-  You can also download the [latest release](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID/versions) from JetBrains Marketplace and install it manually using
+  You can also download the [latest release](https://plugins.jetbrains.com/plugin/28023/versions) from JetBrains Marketplace and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 - Manually:
