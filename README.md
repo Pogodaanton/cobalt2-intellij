@@ -33,8 +33,7 @@ When choosing a color for a token, use the values listed in the table below.
 Each color is assigned a token type.
 You may deviate from these assignments if the color harms legibility in the context of the language.
 
-> [!IMPORTANT] For Example:  
-> Say the given programming language uses a lot of labels. By default, those would be assigned the color of light-blue.
+> **For Example:** Say the given programming language uses a lot of labels. By default, those would be assigned the color of light-blue.
 > However, as it's a complimentary color, it will visually clash with the rest of the palette in the code.
 > In this case, it is better to deviate from the rule and switch labels to a different color in the list.
 > (Don't be afraid to use the default off-white color)
