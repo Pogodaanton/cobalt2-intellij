@@ -3,6 +3,10 @@
 # Cobalt2 Theme (Reshaded) Changelog
 
 ## [Unreleased]
+### Fixed
+- Enable automatic support for future IDE releases 
+
+## [0.0.2]
 ### Added
 - Explicit color scheme for Rust
 - Explicit color scheme for TOML
