@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 ### Fixed
+- Use a more readable color for merge conflicts in the diff view
+### Added
+- Explicit Rider code analysis colors
+- Explicit Rider Unity code analysis colors
+
+## [0.0.3]
+### Fixed
 - Enable automatic support for future IDE releases 
 
 ## [0.0.2]
