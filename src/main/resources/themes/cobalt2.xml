@@ -2081,6 +2081,41 @@
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
+        <option name="UNITY_EXPENSIVE_CAMERA_MAIN_USAGE">
+            <value>
+                <option name="EFFECT_COLOR" value="ff628c" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="UNITY_EXPENSIVE_METHOD_INVOCATION">
+            <value>
+                <option name="EFFECT_COLOR" value="ff628c" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="UNITY_EXPENSIVE_NULL_COMPARISON">
+            <value>
+                <option name="EFFECT_COLOR" value="ff628c" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="UNITY_INEFFICIENT_MULTIDIMENSIONAL_ARRAY_USAGE">
+            <value>
+                <option name="EFFECT_COLOR" value="ff628c" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="UNITY_INEFFICIENT_MULTIPLICATION_ORDER">
+            <value>
+                <option name="EFFECT_COLOR" value="ff628c" />
+                <option name="EFFECT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="UNITY_PERFORMANCE_CRITICAL_LINE_MARKER">
+            <value>
+                <option name="BACKGROUND" value="ff628c" />
+            </value>
+        </option>
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
                 <option name="BACKGROUND" value="583535" />
